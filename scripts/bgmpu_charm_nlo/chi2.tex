@@ -1,0 +1,43 @@
+\documentclass[11pt]{report}
+\usepackage{extsizes}
+\usepackage[paperwidth=21cm,paperheight=21cm,left=0.2cm,right=0.2cm,top=0.5cm,bottom=0.5cm]{geometry}
+\usepackage{pxfonts}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{gray}{0.87}
+\begin{document}
+\begin{table}
+  \begin{center}
+  \rowcolors{2}{lightgray}{}
+  \resizebox*{\textwidth}{!}{
+    \begin{tabular}{lp{2.02cm}p{2.02cm}p{2.02cm}p{2.02cm}}
+      \toprule
+  Dataset     & BG1   & BG2   & BG5   & BG10  \\ 
+      \midrule
+  Beauty cross section ZEUS Vertex & 12 / 17& 12 / 17& 12 / 17& 12 / 17  \\ 
+  Charm cross section H1-ZEUS combined & 41 / 47& 53 / 47& 61 / 47& 59 / 47  \\ 
+  HERA1+2 CCep & 45 / 39& 45 / 39& 47 / 39& 49 / 39  \\ 
+  HERA1+2 CCem & 50 / 42& 52 / 42& 51 / 42& 52 / 42  \\ 
+  HERA1+2 NCem & 228 / 159& 221 / 159& 227 / 159& 273 / 159  \\ 
+  HERA1+2 NCep 820 & 69 / 70& 64 / 70& 65 / 70& 73 / 70  \\ 
+  HERA1+2 NCep 920 & 494 / 377& 477 / 377& 523 / 377& 516 / 377  \\ 
+  HERA1+2 NCep 460 & 220 / 204& 242 / 204& 229 / 204& 233 / 204  \\ 
+  HERA1+2 NCep 575 & 224 / 254& 225 / 254& 226 / 254& 217 / 254  \\ 
+  H1 F2 Beauty Vertex & 3.1 / 12& 2.9 / 12& 2.8 / 12& 2.9 / 12  \\ 
+  Correlated $\chi^2$  & 129& 102& 112& 104  \\ 
+  Log penalty $\chi^2$  & -0.10& +0.42& -5.09& -16.01  \\ 
+  \rowcolor{white}
+      \midrule
+  Total $\chi^2$ / dof  & 1515 / 1207& 1496 / 1207& 1548 / 1207& 1576 / 1207  \\ 
+  \rowcolor{white}
+      \midrule
+  $\chi^2$ p-value  & 0.00 & 0.00 & 0.00 & 0.00   \\ 
+      \bottomrule
+    \end{tabular}
+  }
+  \end{center}
+\end{table}
+
+\end{document}

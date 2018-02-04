@@ -1,0 +1,48 @@
+\documentclass[11pt]{report}
+\usepackage{extsizes}
+\usepackage[paperwidth=21cm,paperheight=21cm,left=0.2cm,right=0.2cm,top=0.2cm,bottom=0.2cm]{geometry}
+\usepackage{pxfonts}
+\pagestyle{empty}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{gray}{0.85}
+\usepackage{color}
+\begin{document}
+\begin{table}
+  \begin{center}
+  \rowcolors{2}{lightgray}{}
+  \resizebox*{\textwidth}{!}{
+    \begin{tabular}{lp{3.49cm}p{3.49cm}p{3.49cm}p{3.49cm}}
+      \toprule
+ Parameter   & BG1 & BG2 & BG5 & BG10  \\ 
+      \midrule
+  'Bg' & $-0.119 \pm 0.016$& $0.091 \pm 0.029$& $0.175 \pm 0.034$& $0.02 \pm 0.64$  \\ 
+  'Cg' & $8.02 \pm 0.29$& $8.52 \pm 0.40$& $8.58 \pm 0.45$& $8.5 \pm 1.5$  \\ 
+  'Aprig' & $0.957 \pm 0.086$& $0.55 \pm 0.14$& $0.23 \pm 0.11$& $1.2 \pm 3.0$  \\ 
+  'Bprig' & $-0.266 \pm 0.010$& $-0.158 \pm 0.031$& $-0.183 \pm 0.057$& $-0.13 \pm 0.23$  \\ 
+  'Cprig' & $\textcolor{blue}{ 25.00 }$& $\textcolor{blue}{ 25.00 }$& $\textcolor{blue}{ 25.00 }$& $\textcolor{blue}{ 25.00 }$  \\ 
+  'Buv' & $0.700 \pm 0.015$& $0.711 \pm 0.016$& $0.716 \pm 0.017$& $0.721 \pm 0.053$  \\ 
+  'Cuv' & $4.782 \pm 0.058$& $4.740 \pm 0.060$& $4.736 \pm 0.060$& $4.73 \pm 0.11$  \\ 
+  'Euv' & $15.0 \pm 1.0$& $14.0 \pm 1.0$& $13.8 \pm 1.0$& $13.6 \pm 3.4$  \\ 
+  'Bdv' & $0.781 \pm 0.050$& $0.810 \pm 0.056$& $0.829 \pm 0.058$& $0.82 \pm 0.11$  \\ 
+  'Cdv' & $3.98 \pm 0.26$& $3.99 \pm 0.27$& $4.03 \pm 0.27$& $4.03 \pm 0.44$  \\ 
+  'CUbar' & $8.39 \pm 0.40$& $7.86 \pm 0.44$& $7.74 \pm 0.45$& $7.82 \pm 0.82$  \\ 
+  'DUbar' & $17.8 \pm 1.7$& $13.3 \pm 1.6$& $12.7 \pm 1.6$& $13.2 \pm 3.7$  \\ 
+  'ADbar' & $0.1447 \pm 0.0060$& $0.1631 \pm 0.0072$& $0.1632 \pm 0.0073$& $0.162 \pm 0.013$  \\ 
+  'BDbar' & $-0.1843 \pm 0.0051$& $-0.1676 \pm 0.0056$& $-0.1679 \pm 0.0056$& $-0.1688 \pm 0.0094$  \\ 
+  'CDbar' & $3.29 \pm 0.56$& $4.24 \pm 0.75$& $4.72 \pm 0.87$& $4.3 \pm 1.5$  \\ 
+  'alphas' & $\textcolor{blue}{ 0.1180 }$& $\textcolor{blue}{ 0.1180 }$& $\textcolor{blue}{ 0.1180 }$& $\textcolor{blue}{ 0.1180 }$  \\ 
+  'fs' & $\textcolor{blue}{ 0.4000 }$& $\textcolor{blue}{ 0.4000 }$& $\textcolor{blue}{ 0.4000 }$& $\textcolor{blue}{ 0.4000 }$  \\ 
+      \midrule
+  \rowcolor{white}
+ Fit status   & \textcolor{red}{ not-a-fit } & \textcolor{red}{ not-a-fit } & \textcolor{red}{ not-a-fit } & converged  \\ 
+  \rowcolor{white}
+ Uncertainties   & not-a-fit & not-a-fit & not-a-fit & migrad-hesse  \\ 
+      \bottomrule
+    \end{tabular}
+  }
+  \end{center}
+\end{table}
+
+\end{document}
